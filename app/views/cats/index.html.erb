@@ -1,0 +1,8 @@
+<h1>Cats#index</h1>
+<ul>
+  <%@cats.each do |cat|%>
+    <li><%= link_to cat.name, cat_path(cat)%></li>
+  <%end%>
+</ul>
+
+<%= button_to "new", new_cat_path, method: :get%>

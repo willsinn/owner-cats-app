@@ -1,0 +1,6 @@
+<h1>All Owners Index</h1>
+<ul>
+  <%@owners.each do |owner|%>
+    <li><%= link_to owner.full_name, owner_path(owner)%></li>
+  <%end%>
+</ul>

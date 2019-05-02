@@ -1,0 +1,6 @@
+<h1><%=@cat.name%>'s Page</h1>
+<%if flash[:message] %>
+<h1><%=flash[:message]%></h1>
+<%end%>
+<%= button_to "Edit", edit_cat_path, method: :get%>
+<%= button_to "Delete", @cat, method: :delete%>

@@ -1,0 +1,5 @@
+<h1>This is <%=@owner.full_name%>'s show page</h1>
+
+<%= button_to "Edit", edit_owner_path, method: :get%>
+<%= button_to "Delete", @owner, method: :delete%>
+<%= button_to "2CatsOrMoreClub", catlady_path, method: :get %>

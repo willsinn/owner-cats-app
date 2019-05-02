@@ -1,0 +1,15 @@
+<h1>Cats#new</h1>
+<%if flash[:message] %>
+<h1><%=flash[:message]%></h1>
+<%end%>
+<%= form_for @cat do |f| %>
+<%=f.label 'name'%>
+<%=f.text_field 'name'%>
+<br>
+<%=f.label 'breed'%>
+<%=f.text_field 'breed'%>
+<br>
+<%=f.collection_select(:owner_id, Owner.all, :id, :full_name)%>
+<br>
+<%=f.submit 'Add New Cat'%>
+<%end%>

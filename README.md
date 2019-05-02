@@ -1,4 +1,4 @@
-Goal: Review all of the core concepts of Rails by building an app from scratch
+<!-- Goal: Review all of the core concepts of Rails by building an app from scratch
 	- MVC
 	- ActiveRecord
 	- Routes
@@ -19,12 +19,12 @@ MODELS:
 CONTROLLERS AND VIEWS:
 - User can do full CRUD on an Owner
 - User can do full CRUD on a Cat
-- Owner and Cat index pages link to show page
+- Owner and Cat index pages link to show page -->
 - Custom route allows users to see all Owners with 2 or more pets
 
 
 VALIDATIONS:
-- There cannot be duplicate Owners (unique first names)
-- Owners must be older than 18
-- Cat cannot be added if breed isn't shorthair, longhair, longnails
-- User sees a message to verify that a Cat/Owner was successfully, or unsuccessfully, created
+<!-- - There cannot be duplicate Owners (unique first names) -->
+<!-- - Owners must be older than 18 -->
+<!-- - Cat cannot be added if breed isn't shorthair, longhair, longnails -->
+<!-- - User sees a message to verify that a Cat/Owner was successfully, or unsuccessfully, created -->
